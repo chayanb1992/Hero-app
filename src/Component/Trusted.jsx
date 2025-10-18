@@ -11,7 +11,6 @@ const Trusted = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
-          {/* Total Downloads */}
           <div>
             <p className="mt-4 text-lg font-semibold">Total Downloads</p>
             <h3 className="text-5xl font-extrabold">29.6M</h3>
@@ -20,7 +19,6 @@ const Trusted = () => {
             </p>
           </div>
 
-          {/* Total Reviews */}
           <div>
             <p className="mt-4 text-lg font-semibold">Total Reviews</p>
             <h3 className="text-5xl font-extrabold">906K</h3>
@@ -29,7 +27,6 @@ const Trusted = () => {
             </p>
           </div>
 
-          {/* Active Apps */}
           <div>
             <p className="mt-4 text-lg font-semibold">Active Apps</p>
             <h3 className="text-5xl font-extrabold">132+</h3>

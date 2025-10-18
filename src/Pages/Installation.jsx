@@ -6,6 +6,7 @@ import ApplicationsHeader from "../Component/ApplicationHeader";
 import { useLoaderData } from "react-router";
 import { getIdFromLocalStorage, removeItems } from "../Utilitis/Utility";
 import InstalledAppsHeader from "../Component/InstalledAppsHeader";
+import { ToastContainer, toast } from "react-toastify";
 
 const Installation = () => {
   const allData = useLoaderData();
@@ -18,22 +19,26 @@ const Installation = () => {
     setInstalledData(matchedApps);
   }, [allData]);
 
-  console.log(installedData);
+  // console.log(installedData);
   const handleSort = (type) => {
     let sorted = [];
 
-    if (type === "name") {
-      sorted = [...installedData].sort((a, b) => a.name.localeCompare(b.name));
-    } else if (type === "rating") {
-      sorted = [...installedData].sort((a, b) => b.rating - a.rating); // highest first
+    if (type === "High-Low") {
+      sorted = [...installedData].sort(
+        (a, b) => parseFloat(b.downloads) - parseFloat(a.downloads)
+      );
+    } else if (type === "Low-High") {
+      sorted = [...installedData].sort(
+        (a, b) => parseFloat(a.downloads) - parseFloat(b.downloads)
+      ); // highest first
     }
 
     setSortData(sorted);
 
     // If you want to log new sorted data:
-    console.log("Sorted:", sortData.length);
+    // console.log("Sorted:", sortData.length);
   };
-  console.log("Sorted:", sortData.length);
+  // console.log("Sorted:", sortData.length);
   const handleLocalStorage = (id) => {
     removeItems(id);
 
@@ -42,11 +47,14 @@ const Installation = () => {
 
     // 3️⃣ Also update sorted data if needed
     setSortData((prevSort) => prevSort.filter((app) => app.id !== id));
-    console.log(id);
+    // console.log(id);
+    toast.success("✅ App uninstall successfully!", {
+      position: "top-right",
+      autoClose: 1500,
+    });
   };
   return (
-    <div>
-      {/* <InstalledAppsHeader */}
+    <div className="mb-6">
       <InstalledAppsHeader
         data={installedData.length}
         handleSort={handleSort}
@@ -66,6 +74,7 @@ const Installation = () => {
               data={data}
             />
           ))}
+      <ToastContainer />;
     </div>
   );
 };

@@ -16,29 +16,38 @@ const Banner = () => {
         digital experiences that truly make an impact.
       </p>
 
-      {/* Store Buttons */}
       <div className="flex gap-4 mt-6">
-        <button className="bg-white shadow-md border border-gray-200 px-2 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 active:bg-gray-200 transition">
-          <img src={playStore} alt="Google Play" className="w-30 rounded-md" />
-        </button>
-        <button className="bg-white shadow-md border border-gray-200 px-2 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 active:bg-gray-200 transition">
-          <img src={appStore} alt="App Store" className="w-30 rounded-md" />
-        </button>
+        <a
+          href="https://play.google.com/store/apps"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="bg-white shadow-md border border-gray-200 px-2 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 active:bg-gray-200 transition">
+            <img
+              src={playStore}
+              alt="Google Play"
+              className="w-30 rounded-md"
+            />
+          </button>
+        </a>
+
+        <a
+          href="https://www.apple.com/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="bg-white shadow-md border border-gray-200 px-2 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 active:bg-gray-200 transition">
+            <img src={appStore} alt="App Store" className="w-30 rounded-md" />
+          </button>
+        </a>
       </div>
 
-      {/* Banner Image */}
       <div className="relative mt-10 w-full max-w-md">
         <img
           src={bannerImg}
           alt="App Preview"
           className="rounded-3xl mx-auto w-full"
         />
-
-        {/* Floating Icons */}
-        {/* <FaCheckCircle className="text-blue-500 text-3xl absolute -left-8 top-20 bg-white rounded-full shadow-md p-2" />
-        <FaStopwatch className="text-sky-500 text-3xl absolute left-8 -top-8 bg-white rounded-full shadow-md p-2" />
-        <FaClock className="text-red-500 text-3xl absolute -right-8 top-24 bg-white rounded-full shadow-md p-2" />
-        <FaSave className="text-green-500 text-3xl absolute right-8 -bottom-6 bg-white rounded-full shadow-md p-2" /> */}
       </div>
     </section>
   );

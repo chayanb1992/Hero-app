@@ -1,19 +1,16 @@
 import React from "react";
 
 const InstalledAppCard = ({ data, handleLocalStorage }) => {
-  const { name, downloads, rating, image, id, reviews, description } = data;
+  const { title, downloads, ratingAvg, image, id } = data;
   return (
     <div className="flex items-center justify-between p-4 bg-white shadow rounded-md w-full container mx-auto">
-      {/* App Icon Placeholder */}
       <div className="flex items-center">
-        <div className="w-12 h-12 bg-gray-200 rounded-md mr-4" />
-
-        {/* App Info */}
+        <div className="w-12 h-12 bg-gray-200 rounded-md mr-4">
+          <img className="rounded-md" src={image} alt="App image" />
+        </div>
         <div className="flex flex-col space-y-1">
-          {/* Title */}
-          <div className="text-sm font-medium text-gray-900">{name}</div>
+          <div className="text-sm font-medium text-gray-900">{title}</div>
 
-          {/* Stats */}
           <div className="flex items-center text-xs text-gray-600 space-x-4">
             <div className="flex items-center space-x-1 text-green-500">
               <svg
@@ -41,7 +38,7 @@ const InstalledAppCard = ({ data, handleLocalStorage }) => {
               >
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.95a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.287 3.951c.3.92-.755 1.688-1.54 1.118l-3.36-2.44a1 1 0 00-1.176 0l-3.36 2.44c-.785.57-1.84-.197-1.54-1.118l1.287-3.95a1 1 0 00-.364-1.119l-3.36-2.44c-.783-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.286-3.951z" />
               </svg>
-              <span>{rating}</span>
+              <span>{ratingAvg}</span>
             </div>
 
             <div className="text-gray-500">258 MB</div>

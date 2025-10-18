@@ -2,181 +2,361 @@
   {
     "id": 1,
     "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "ChatMaster AI",
-    "downloads": "5.2M",
-    "rating": 4.8,
+    "title": "ChatMaster AI",
+    "companyName": "Demo Company",
+    "description": "ChatMaster AI is your ultimate AI-powered assistant designed to make your digital communication, research, and content creation seamless and efficient. From writing professional emails to summarizing large amounts of information, generating creative ideas, or assisting in everyday communication tasks, ChatMaster AI adapts to your needs with precision and clarity. It supports multi-language translation and voice commands, making it accessible to a global audience. With its intelligent algorithms, the app can provide accurate and context-aware suggestions, helping you save time and improve productivity. Students, professionals, and creative users alike benefit from its extensive capabilities. Continuous updates enhance accuracy and introduce new features, ensuring your AI companion is always reliable. ChatMaster AI transforms the way you work, study, and communicate, offering a smooth, natural, and highly interactive experience that feels like having a knowledgeable assistant right in your pocket. It’s perfect for boosting efficiency, enhancing creativity, and tackling daily tasks with confidence and ease, no matter where you are.",
+    "size": 50,
     "reviews": "210K",
-    "description": "ChatMaster AI is your intelligent digital companion for writing, research, and productivity. It can answer questions, summarize information, generate ideas, and assist with everyday communication tasks. Whether you’re composing professional emails, creating content, or studying, ChatMaster AI understands your intent and provides accurate, natural responses. The app also supports voice commands and multi-language translation for global users. With continuous updates and improved accuracy, ChatMaster AI is built to save you time, inspire creativity, and make your daily work easier. It’s like having a smart assistant in your pocket ready to help anytime, anywhere."
+    "ratingAvg": 4.8,
+    "downloads": "5.2M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 125000 }
+    ]
   },
   {
     "id": 2,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "FitTrack Pro",
-    "downloads": "3.9M",
-    "rating": 4.6,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(2).webp",
+    "title": "FitTrack Pro",
+    "companyName": "Demo Company",
+    "description": "FitTrack Pro is a comprehensive fitness app built to help users reach their health and wellness objectives with ease and precision. The app tracks your workouts, steps, calories, heart rate, and overall physical activity with real-time accuracy. It provides personalized fitness plans, daily motivation, and detailed analytics to monitor progress over time. FitTrack Pro integrates seamlessly with popular wearable devices and offers voice-guided coaching to keep you focused and encouraged during workouts. Users can join community challenges, connect with experts, and receive actionable advice for improving performance. Whether exercising at home or at the gym, the app adjusts to your lifestyle and personal goals. FitTrack Pro also helps you maintain balance by monitoring recovery and offering insights into sleep and nutrition. With intuitive charts, progress tracking, and gamified features, it transforms fitness into an enjoyable, data-driven experience. The app motivates users to stay consistent, improve health, and achieve long-term results in a sustainable and effective way, making it an essential tool for every fitness enthusiast.",
+    "size": 50,
     "reviews": "152K",
-    "description": "FitTrack Pro is a powerful fitness companion that helps you achieve your health and wellness goals. It tracks your workouts, steps, calories, and heart rate with precision. The app offers personalized fitness plans, daily motivation, and real-time progress analytics. Whether you’re training at home or in the gym, FitTrack Pro adapts to your routine. It integrates with popular wearables and supports voice coaching to keep you motivated during workouts. With community challenges, expert advice, and visual progress reports, FitTrack Pro turns your fitness journey into a fun, data-driven experience built for long-term results."
+    "ratingAvg": 4.6,
+    "downloads": "3.9M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 142000 }
+    ]
   },
   {
     "id": 3,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "PhotoBlend Studio",
-    "downloads": "2.7M",
-    "rating": 4.4,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(3).webp",
+    "title": "PhotoBlend Studio",
+    "companyName": "Demo Company",
+    "description": "PhotoBlend Studio is a professional photo editing application designed to cater to both beginners and experienced users. It offers AI-powered tools that make photo enhancement effortless, allowing users to remove backgrounds, apply creative filters, merge images, and adjust colors with a single tap. The app supports advanced layer editing, collage creation, and real-time previews to ensure precise results. With a large library of templates and custom adjustment options, PhotoBlend Studio helps users transform ordinary photographs into stunning digital artwork. The application also supports high-resolution exports suitable for printing or social media sharing. Whether creating marketing visuals, editing personal photos, or designing professional posters, PhotoBlend Studio provides intuitive features that streamline the editing process. Its smart interface encourages creativity while minimizing technical challenges. Users can experiment freely, make rapid adjustments, and achieve polished results in less time. By combining powerful AI tools with user-friendly design, PhotoBlend Studio empowers users to express creativity and produce visually captivating imagery, making it an indispensable tool for artists, marketers, and photography enthusiasts.",
+    "size": 50,
     "reviews": "98K",
-    "description": "PhotoBlend Studio is an advanced photo editing app designed for both beginners and professionals. It offers AI-powered tools to remove backgrounds, apply filters, merge photos, and enhance colors with just one tap. The app supports layer editing, collage creation, and real-time previews. With hundreds of creative templates and adjustment options, you can transform ordinary photos into stunning digital art. PhotoBlend Studio also supports high-resolution export for printing and social media sharing. Whether you’re designing posters, editing selfies, or creating marketing visuals, this app makes every image look polished, professional, and uniquely yours."
+    "ratingAvg": 4.4,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 98000 }
+    ]
   },
   {
     "id": 4,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "NoteSync Cloud",
-    "downloads": "1.8M",
-    "rating": 4.5,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(4).webp",
+    "title": "NoteSync Cloud",
+    "companyName": "Demo Company",
+    "description": "NoteSync Cloud is a feature-rich note-taking and productivity app that ensures your ideas and important information are safely stored, organized, and accessible across all devices. Users can create notes, attach images, record voice memos, and automatically sync content to the cloud. The app supports collaborative work in real-time, enabling teams or study groups to edit and share notes seamlessly. With powerful organization tools like tags, reminders, and folders, you can quickly locate your information anytime. Offline access ensures productivity even without internet connectivity, while end-to-end encryption protects sensitive data. NoteSync Cloud also allows for smooth integration with calendars and task management systems, helping users manage schedules and projects effectively. The intuitive interface reduces distractions and promotes focused writing. Ideal for students, professionals, and creative individuals, NoteSync Cloud is designed to streamline note-taking, enhance collaboration, and provide an efficient digital workspace that keeps all your ideas at your fingertips and accessible anytime, anywhere.",
+    "size": 50,
     "reviews": "76K",
-    "description": "NoteSync Cloud keeps your notes safe, organized, and accessible across all your devices. You can write ideas, capture photos, record voice memos, and sync everything automatically to the cloud. The app supports real-time collaboration, allowing teams to share and edit notes together. With built-in reminders, tags, and offline mode, your thoughts are always within reach. NoteSync Cloud also uses encryption to protect your data. Whether you’re a student managing assignments or a professional tracking projects, this app offers a seamless, distraction-free writing environment that helps you stay productive wherever inspiration strikes."
+    "ratingAvg": 4.5,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 37000 }
+    ]
   },
   {
     "id": 5,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "MealMate",
-    "downloads": "4.1M",
-    "rating": 4.7,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(5).webp",
+    "title": "MealMate",
+    "companyName": "Demo Company",
+    "description": "MealMate is a complete meal planning and nutrition app designed to simplify healthy eating and support personalized diet goals. Users can discover balanced recipes, track calories, create grocery lists, and monitor macronutrient intake effortlessly. The app accommodates various dietary preferences including vegan, keto, gluten-free, and more. With step-by-step cooking instructions, smart reminders, and weekly progress reports, MealMate helps users build consistent and sustainable eating habits. It also allows meal logging through photos or barcode scanning for accuracy. Users benefit from expert-curated meal plans and nutrition tips to achieve weight management, muscle gain, or overall wellness. MealMate’s interactive interface encourages engagement, simplifies planning, and enhances the cooking experience. It empowers users to make informed choices, reduce food waste, and save time while maintaining a healthy lifestyle. By combining personalized guidance with practical tools, MealMate becomes a reliable partner in maintaining optimal nutrition and achieving long-term health goals.",
+    "size": 50,
     "reviews": "189K",
-    "description": "MealMate is your personalized meal planning and nutrition assistant. It helps you discover healthy recipes, track calories, and create grocery lists tailored to your diet goals. Whether you’re aiming to lose weight, gain muscle, or eat clean, MealMate provides expert-curated meal plans and nutrition insights. The app supports vegan, keto, and gluten-free preferences. You can log meals using photos or barcode scanning for accuracy. With step-by-step cooking instructions, smart reminders, and weekly progress reports, MealMate simplifies healthy eating and turns nutrition management into a sustainable lifestyle that fits perfectly into your routine."
+    "ratingAvg": 4.7,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 101000 }
+    ]
   },
   {
     "id": 6,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "CryptoVault",
-    "downloads": "6.4M",
-    "rating": 4.3,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(6).webp",
+    "title": "CryptoVault",
+    "companyName": "Demo Company",
+    "description": "CryptoVault is a highly secure and versatile cryptocurrency wallet designed to give users complete control over their digital assets. It supports a wide range of cryptocurrencies including Bitcoin, Ethereum, and many other popular tokens. The app provides real-time market tracking, price alerts, and comprehensive portfolio analytics to help users make informed investment decisions. CryptoVault employs state-of-the-art encryption and biometric authentication to ensure that funds are protected at all times. Users can buy, sell, and exchange cryptocurrencies with low fees, while advanced performance charts track investment growth and trends. Beginners benefit from user-friendly tutorials and guidance, while experienced traders appreciate the depth of analytics and security measures. The app also features instant notifications, transaction history, and secure backup options. By combining accessibility, security, and powerful analytics, CryptoVault empowers users to confidently manage their crypto portfolio, make smarter financial decisions, and engage in the digital economy with peace of mind and convenience.",
+    "size": 50,
     "reviews": "232K",
-    "description": "CryptoVault is a secure digital wallet that lets you manage all your cryptocurrencies in one place. It supports popular coins like Bitcoin, Ethereum, and many others, with real-time market tracking and alerts. The app uses industry-grade encryption and biometric authentication for complete safety. You can buy, sell, and exchange crypto instantly with low fees. Portfolio analytics and performance charts help you make smart investment decisions. Whether you’re a beginner or a seasoned trader, CryptoVault ensures your digital assets stay protected and accessible. Stay informed, trade confidently, and manage your crypto future with ease."
+    "ratingAvg": 4.3,
+    "downloads": "6.4M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 132000 },
+      { "name": "5 star", "count": 338000 }
+    ]
   },
   {
     "id": 7,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "TravelEase",
-    "downloads": "2.1M",
-    "rating": 4.5,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(7).jpeg",
+    "title": "TravelEase",
+    "companyName": "Demo Company",
+    "description": "TravelEase is an all-in-one travel app designed to simplify trip planning and enhance travel experiences. It allows users to book flights, hotels, and rental cars quickly and efficiently, offering personalized recommendations based on preferences and previous trips. The app provides real-time flight updates, weather forecasts, and offline maps to make navigation seamless during travel. Users can organize itineraries, track expenses, and securely store travel documents for convenience. TravelEase also features an in-app community where travelers can share experiences, tips, and local insights. With intuitive design, integrated notifications, and helpful guides, TravelEase ensures stress-free travel planning and on-the-go decision-making. Whether for a weekend getaway or a global adventure, the app empowers users to manage every aspect of their trip, discover hidden gems, and enjoy a smooth and memorable journey. Its combination of convenience, personalization, and social interaction makes TravelEase an indispensable companion for modern travelers seeking efficient, safe, and enriching experiences.",
+    "size": 50,
     "reviews": "104K",
-    "description": "TravelEase is your ultimate travel companion designed to simplify trip planning from start to finish. Book flights, hotels, and rental cars within seconds and get personalized travel recommendations based on your interests. The app offers live flight updates, weather forecasts, and offline maps for convenient navigation. You can also organize itineraries, track expenses, and store important travel documents securely. TravelEase connects travelers through an in-app community for sharing experiences and tips. Whether it’s a weekend getaway or a world tour, TravelEase ensures every journey is smooth, stress-free, and filled with unforgettable adventures."
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 56000 }
+    ]
   },
   {
     "id": 8,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "StudyPal",
-    "downloads": "3.3M",
-    "rating": 4.9,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(7).png",
+    "title": "StudyPal",
+    "companyName": "Demo Company",
+    "description": "StudyPal is a comprehensive educational platform aimed at helping students and lifelong learners study efficiently and achieve academic success. It offers interactive tools such as flashcards, quizzes, AI-generated summaries, and live tutoring sessions to facilitate deeper understanding of topics. The app monitors learning habits and provides personalized study plans tailored to individual goals. Users can collaborate with classmates, share notes, and engage in group discussions, enhancing the learning experience through community interaction. Motivational challenges, streak rewards, and progress tracking encourage consistent engagement. Offline access ensures that studying continues uninterrupted, while performance analytics help learners identify strengths and areas for improvement. StudyPal supports multiple subjects and educational levels, making it suitable for exam preparation, skill development, and lifelong learning. By integrating technology, AI, and social collaboration, StudyPal transforms studying into an effective, enjoyable, and personalized experience, ensuring users maximize learning outcomes and achieve their academic aspirations with confidence.",
+    "size": 50,
     "reviews": "256K",
-    "description": "StudyPal is an interactive learning platform that helps students study smarter, not harder. It offers flashcards, quizzes, live tutoring sessions, and AI-generated summaries to make studying more effective. The app tracks your learning habits and suggests customized study plans based on your goals. You can collaborate with classmates, share notes, and participate in group discussions. StudyPal also includes motivational challenges and streak rewards to keep learners engaged. With offline mode and progress analytics, it’s the perfect tool for students preparing for exams or lifelong learners eager to master new skills efficiently."
+    "ratingAvg": 4.9,
+    "downloads": "3.3M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 182000 }
+    ]
   },
   {
     "id": 9,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "SoundVibe",
-    "downloads": "8.2M",
-    "rating": 4.7,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(8).jpeg",
+    "title": "SoundVibe",
+    "companyName": "Demo Company",
+    "description": "SoundVibe is an innovative music streaming platform that provides an immersive listening experience. It allows users to stream millions of tracks, create personalized playlists, and discover new artists through AI-powered recommendations tailored to individual tastes. The app supports offline listening, high-quality audio, and customizable equalizer settings for an enhanced experience. SoundVibe also integrates podcasts, radio stations, and mood-based mixes, offering a diverse range of content for every listener. Social sharing features allow users to connect with friends, share music, and explore trending content. The elegant and intuitive interface ensures fast navigation and seamless playback. Exclusive artist content, live sessions, and curated playlists enhance engagement. With real-time updates and notifications, users stay informed about new releases, events, and favorite artist activities. SoundVibe combines technology, personalization, and social connectivity to deliver a vibrant, interactive, and deeply enjoyable music experience that caters to casual listeners and audiophiles alike, making music discovery effortless and fun.",
+    "size": 50,
     "reviews": "401K",
-    "description": "SoundVibe lets you experience music like never before. Stream millions of tracks, build playlists, and discover new artists tailored to your taste using smart AI recommendations. You can listen offline, adjust equalizer settings, and enjoy high-quality audio on any device. The app also supports podcasts, radio channels, and personalized mood-based mixes. Social sharing features allow you to connect with friends and explore what they’re listening to. With an elegant design, fast streaming, and exclusive artist content, SoundVibe makes music discovery effortless and deeply personal, turning every moment into a soundtrack worth remembering."
+    "ratingAvg": 4.7,
+    "downloads": "8.2M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 191000 }
+    ]
   },
   {
     "id": 10,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "BudgetWise",
-    "downloads": "4.5M",
-    "rating": 4.6,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(8).png",
+    "title": "BudgetWise",
+    "companyName": "Demo Company",
+    "description": "BudgetWise is an intelligent financial management app designed to help users track expenses, plan budgets, and achieve financial goals efficiently. It automatically categorizes spending, generates insightful reports, and visualizes financial data in an easy-to-understand format. Users can set monthly savings targets, manage bills, and receive timely alerts for upcoming payments. BudgetWise integrates securely with bank accounts while maintaining privacy and data protection. The app provides AI-driven suggestions to optimize spending, identify unnecessary costs, and improve overall financial health. Users can monitor their progress towards goals and adjust strategies accordingly. BudgetWise also includes budgeting tools, spending forecasts, and insights into investment options. Its intuitive interface and interactive charts make financial management engaging and accessible. Whether for personal finance, family budgeting, or small business tracking, BudgetWise empowers users to make informed decisions, improve money habits, and achieve financial stability and independence with confidence and ease.",
+    "size": 50,
     "reviews": "180K",
-    "description": "BudgetWise is a smart financial management app that helps you track expenses, plan budgets, and achieve your financial goals. It automatically categorizes your spending and provides clear visual insights into where your money goes. You can set monthly savings targets, manage bills, and receive alerts for upcoming payments. BudgetWise syncs securely with your bank accounts while maintaining strong privacy protection. With built-in financial tips, AI-driven analysis, and goal progress tracking, this app empowers users to make better decisions, eliminate unnecessary spending, and build a stable financial future one transaction at a time."
+    "ratingAvg": 4.6,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 85000 }
+    ]
   },
   {
     "id": 11,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "HomeSmart",
-    "downloads": "1.6M",
-    "rating": 4.2,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(9).png",
+    "title": "HomeSmart",
+    "companyName": "Demo Company",
+    "description": "HomeSmart is a smart home automation app that allows users to control and monitor their homes from anywhere using a smartphone. It integrates lights, thermostats, cameras, and appliances, enabling users to automate daily routines and enhance home security. The app supports voice commands through popular assistants like Alexa and Google Assistant for hands-free operation. Users can create schedules, track energy consumption, and receive instant alerts for unusual activity or potential security issues. HomeSmart features a user-friendly interface, encrypted connections, and robust security measures to ensure privacy and reliability. With remote access, real-time monitoring, and seamless integration of multiple devices, HomeSmart offers convenience, comfort, and safety. The app empowers users to optimize energy usage, automate routines, and manage smart devices efficiently. By combining technology and simplicity, HomeSmart creates a connected, intelligent living environment that adapts to lifestyle needs, making everyday home management smarter, safer, and more comfortable for families and individuals alike.",
+    "size": 50,
     "reviews": "67K",
-    "description": "HomeSmart lets you control your home from anywhere using your smartphone. Connect lights, thermostats, cameras, and appliances to automate daily routines. The app supports voice commands through Alexa and Google Assistant for hands-free convenience. You can create schedules, monitor energy use, and receive instant alerts for unusual activity. With a user-friendly interface and encrypted connections, HomeSmart offers security and simplicity in one package. Whether you’re turning on the lights before arriving home or checking security footage while away, HomeSmart makes living smarter, safer, and more connected than ever before."
+    "ratingAvg": 4.2,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 35000 }
+    ]
   },
   {
     "id": 12,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "BookNest",
-    "downloads": "5.8M",
-    "rating": 4.8,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(10).png",
+    "title": "BookNest",
+    "companyName": "Demo Company",
+    "description": "BookNest is a versatile digital library app that provides access to thousands of eBooks and audiobooks from around the world. Users can explore various genres, discover new authors, and create personalized reading lists. The app features an elegant reading interface with adjustable fonts, dark mode, and offline reading options for a seamless experience. BookNest allows syncing across devices, so users can continue reading anytime, anywhere. Highlights and notes can be saved for study or inspiration. Community reviews, ratings, and daily recommendations help users find popular and high-quality content. The app supports both casual reading and academic study, catering to students, professionals, and avid readers. With curated collections, search filters, and a well-organized library, BookNest makes discovering, managing, and enjoying books effortless. By combining convenience, personalization, and social interaction, BookNest enhances the reading experience, encourages lifelong learning, and fosters a love of literature, making it an indispensable resource for readers of all ages and interests.",
+    "size": 50,
     "reviews": "245K",
-    "description": "BookNest is a digital library that gives you access to thousands of eBooks and audiobooks from around the world. You can explore genres, discover new authors, and personalize your reading lists with ease. The app features an elegant reading interface with adjustable fonts, dark mode, and offline reading options. Sync your progress across devices and highlight key passages for study or inspiration. With daily recommendations and community reviews, BookNest makes discovering great books effortless. Whether you’re a student, traveler, or lifelong reader, this app brings your next favorite story right to your fingertips."
+    "ratingAvg": 4.8,
+    "downloads": "5.8M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 83000 },
+      { "name": "5 star", "count": 124000 }
+    ]
   },
   {
     "id": 13,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "TaskFlow",
-    "downloads": "2.9M",
-    "rating": 4.4,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(11).png",
+    "title": "TaskFlow",
+    "companyName": "Demo Company",
+    "description": "TaskFlow is a modern productivity app designed to help users organize tasks, set priorities, and track progress efficiently. It provides to-do lists, reminders, calendar integration, and collaborative features for teams. The app visualizes progress through intuitive dashboards, helping users focus on what matters most. TaskFlow supports assigning tasks, tracking deadlines, and managing both personal and work projects. Its minimalist design ensures a distraction-free experience while smart notifications keep users informed. The app encourages consistency through goal setting, habit tracking, and productivity insights. Users can synchronize data across multiple devices for seamless task management. Whether managing complex projects, daily routines, or personal objectives, TaskFlow simplifies organization, promotes accountability, and increases efficiency. By combining simplicity, functionality, and collaboration, TaskFlow enables users to stay on top of tasks, improve productivity, and achieve meaningful results in their professional and personal lives.",
+    "size": 50,
     "reviews": "120K",
-    "description": "TaskFlow is a modern productivity app that helps you stay organized and focused every day. Create tasks, set priorities, and visualize progress through beautiful dashboards. The app supports to-do lists, reminders, and calendar synchronization. You can collaborate with teammates, assign tasks, and track deadlines effortlessly. TaskFlow’s minimalist design and smart notifications keep you productive without overwhelming distractions. Whether managing work projects or personal goals, TaskFlow adapts to your workflow. It’s the perfect tool for students, professionals, and teams seeking structure, clarity, and consistent progress toward achieving what truly matters."
+    "ratingAvg": 4.4,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 51000 }
+    ]
   },
   {
     "id": 14,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "MindEase",
-    "downloads": "3.2M",
-    "rating": 4.9,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(12).png",
+    "title": "MindEase",
+    "companyName": "Demo Company",
+    "description": "MindEase is a meditation and mindfulness application created to help users cultivate mental clarity, relaxation, and emotional well-being. The app provides guided meditation sessions, sleep sounds, breathing exercises, and stress-relief techniques suitable for beginners and experienced practitioners alike. Personalized programs adapt to individual goals, addressing anxiety management, focus improvement, and emotional balance. MindEase tracks progress and encourages daily mindfulness practices through reminders and streak rewards. Users can select sessions based on time, mood, or desired outcome, creating a flexible wellness routine. The app also offers educational content about mindfulness and meditation, helping users understand and implement techniques effectively. MindEase’s serene interface and calming audio create an immersive experience that promotes relaxation and inner peace. It is ideal for students, professionals, and anyone looking to improve mental health, reduce stress, and maintain focus. By combining technology with proven mindfulness practices, MindEase empowers users to integrate meditation seamlessly into daily life, enhancing overall wellness and promoting a healthy, balanced lifestyle.",
+    "size": 50,
     "reviews": "278K",
-    "description": "MindEase is a meditation and mindfulness app designed to bring calm and focus to your daily life. With guided meditation sessions, sleep sounds, and stress-relief techniques, it helps you relax and recharge. The app offers personalized programs to manage anxiety, improve focus, and boost emotional well-being. Progress tracking and daily reminders encourage consistency in your mental health journey. MindEase’s soothing interface and expert-led sessions make it easy to develop mindfulness habits. Whether you’re new to meditation or seeking deeper balance, MindEase supports a peaceful mind and a healthier lifestyle through mindfulness."
+    "ratingAvg": 4.9,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 92000 },
+      { "name": "5 star", "count": 166000 }
+    ]
   },
   {
     "id": 15,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "WeatherX",
-    "downloads": "7.1M",
-    "rating": 4.5,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(13).png",
+    "title": "WeatherX",
+    "companyName": "Demo Company",
+    "description": "WeatherX is a comprehensive weather application designed to provide accurate, real-time weather updates and forecasts. It offers hourly and daily weather predictions, radar maps, severe weather alerts, and temperature tracking to help users plan their day with confidence. The app also monitors air quality, UV index, and rainfall patterns, providing critical environmental information. WeatherX features an intuitive, visually appealing interface with smooth animations for easy navigation. Users can customize notifications for specific weather events and add widgets for quick access to current conditions. Offline access ensures that forecasts are available even without a connection, while location-based services provide local insights anywhere in the world. Whether traveling, commuting, or planning outdoor activities, WeatherX delivers precise, timely, and reliable information. The app is perfect for individuals who need to stay ahead of weather changes, improve safety, and optimize daily routines. With WeatherX, weather data is accessible, interactive, and engaging, making meteorology informative, convenient, and enjoyable for every user.",
+    "size": 50,
     "reviews": "315K",
-    "description": "WeatherX delivers accurate, real-time weather updates so you can plan your day with confidence. It provides hourly forecasts, radar maps, and severe weather alerts for your area. The app also includes air quality monitoring, UV index, and rainfall predictions. WeatherX’s elegant interface and smooth animations make checking the forecast enjoyable. You can customize notifications and add widgets for quick access. Whether you’re traveling, working outdoors, or just planning your weekend, WeatherX keeps you informed of changing conditions instantly. Stay ahead of the weather with precision and style using this all-in-one meteorology companion."
+    "ratingAvg": 4.5,
+    "downloads": "7.1M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 90000 }
+    ]
   },
   {
     "id": 16,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "Shoply",
-    "downloads": "9.5M",
-    "rating": 4.6,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app(14).jpeg",
+    "title": "Shoply",
+    "companyName": "Demo Company",
+    "description": "Shoply is an innovative shopping application designed to make online purchasing smarter, more efficient, and rewarding. Users can browse trending products, compare prices, and receive cashback on purchases from hundreds of trusted stores. The app utilizes AI-powered recommendations to personalize the shopping experience based on browsing history, interests, and past purchases. Shoply allows users to create wishlists, manage orders, and track deliveries in real time. Notifications alert users to exclusive deals, discounts, and limited-time offers to maximize savings. Secure payment processing ensures transactions are safe and reliable. Shoply also features curated collections, trending product lists, and community reviews to help users make informed decisions. By combining convenience, personalization, and financial rewards, Shoply transforms online shopping into a seamless, enjoyable experience. The app empowers users to discover the best products, save money, and shop efficiently, making it an indispensable companion for anyone looking to enhance their online retail experience with smart insights and effortless management.",
+    "size": 50,
     "reviews": "512K",
-    "description": "Shoply makes online shopping smarter and more rewarding. Discover trending products, compare prices, and earn cashback on every purchase. The app tracks deals across hundreds of trusted stores and alerts you to discounts before checkout. With AI-powered recommendations, Shoply tailors your feed to match your interests and shopping history. Users can create wishlists, manage orders, and share favorite finds with friends. Secure payments and fast delivery tracking ensure a smooth shopping experience. Shoply transforms browsing into saving by combining convenience, affordability, and personalization for shoppers who love value without compromise."
+    "ratingAvg": 4.6,
+    "downloads": "9.5M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 267000 }
+    ]
   },
   {
     "id": 17,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "DriveGo",
-    "downloads": "6.9M",
-    "rating": 4.3,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app(14).png",
+    "title": "DriveGo",
+    "companyName": "Demo Company",
+    "description": "DriveGo is a smart navigation app designed to simplify driving experiences for users in urban and rural settings alike. It provides real-time traffic updates, route optimization, and turn-by-turn voice guidance to ensure smooth journeys. The app alerts users to speed cameras, accidents, and road closures, helping avoid delays and improve safety. Users can locate nearby parking, gas stations, restaurants, and other points of interest with ease. DriveGo integrates with music and messaging apps for a hands-free driving experience. Offline navigation ensures the app remains reliable even in areas with limited connectivity. Automatic route recalculation adapts to changing traffic conditions, offering the fastest and safest path. Whether commuting to work, exploring new cities, or embarking on road trips, DriveGo empowers users to navigate efficiently and confidently. Its intuitive interface, accurate directions, and advanced features make every journey stress-free, enjoyable, and well-informed, transforming how drivers plan and experience travel on the road.",
+    "size": 50,
     "reviews": "204K",
-    "description": "DriveGo is a smart navigation app that simplifies your driving experience. Get real-time traffic updates, route optimization, and turn-by-turn voice guidance. The app alerts you to speed cameras, accidents, and road closures. You can also find nearby parking, gas stations, and restaurants with ease. DriveGo integrates with music and messaging apps, ensuring safe, hands-free driving. With offline navigation support and automatic route recalculation, you’ll never feel lost again. Whether you’re commuting or exploring new cities, DriveGo keeps your journey efficient, informed, and enjoyable every time you hit the road."
+    "ratingAvg": 4.3,
+    "downloads": "6.9M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 82000 },
+      { "name": "5 star", "count": 152000 }
+    ]
   },
   {
     "id": 18,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "LangHero",
-    "downloads": "3.7M",
-    "rating": 4.8,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app(15).png",
+    "title": "LangHero",
+    "companyName": "Demo Company",
+    "description": "LangHero is a language learning app designed to make mastering new languages engaging, effective, and fun. It offers bite-sized lessons, interactive quizzes, and real-world conversation practice to enhance comprehension and retention. The app supports over 30 languages and adapts lesson difficulty using AI algorithms based on individual progress. Users can practice pronunciation using voice recognition technology and receive feedback to improve speaking skills. Daily streak rewards, gamified challenges, and cultural insights keep learners motivated and engaged. LangHero also allows users to chat with native speakers, track learning milestones, and test proficiency levels. The app’s flexible approach accommodates learners preparing for travel, business, or study, making language acquisition personalized and convenient. By combining technology, gamification, and interactive practice, LangHero transforms language learning into a daily habit, helping users gain confidence, enhance communication skills, and develop a deep understanding of new languages in an enjoyable and efficient way.",
+    "size": 50,
     "reviews": "194K",
-    "description": "LangHero makes language learning engaging and effective with bite-sized lessons, fun quizzes, and real-world conversations. The app supports over 30 languages and adapts lessons to your level using AI technology. Practice pronunciation with voice recognition and earn rewards for daily streaks. You can chat with native speakers, test your progress, and explore cultural facts to deepen understanding. LangHero’s gamified experience turns learning into a daily habit. Whether you’re preparing for travel, business, or study, LangHero helps you master new languages faster, boosting confidence and communication skills through personalized, enjoyable practice."
+    "ratingAvg": 4.8,
+    "downloads": "3.7M",
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 89100 }
+    ]
   },
   {
     "id": 19,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "PixVault",
-    "downloads": "2.2M",
-    "rating": 4.4,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app(16).png",
+    "title": "PixVault",
+    "companyName": "Demo Company",
+    "description": "PixVault is a secure gallery application designed to protect private photos and videos from unauthorized access. It uses advanced encryption and biometric authentication to safeguard sensitive media, ensuring users have complete control over their personal files. PixVault allows importing, organizing, and backing up photos in hidden albums while providing a decoy login feature for additional privacy. The app’s clean and intuitive interface makes managing files simple and efficient, while high-performance tools ensure smooth operation even with large media libraries. Users can securely share files with trusted contacts and access cloud storage for backups. PixVault emphasizes privacy without compromising convenience, making it ideal for individuals who value digital security and want to protect memories or confidential content. By combining robust encryption, flexible organization, and an easy-to-use interface, PixVault provides peace of mind, allowing users to safely store, organize, and access their media anytime, anywhere.",
+    "size": 50,
     "reviews": "88K",
-    "description": "PixVault is a secure gallery app designed to keep your private photos and videos safe. It uses advanced encryption and biometric locks to protect sensitive media. You can import photos directly from your camera roll, organize them in hidden albums, and back them up to private cloud storage. The app disguises itself with a decoy login feature for extra security. With smooth performance and a clean interface, PixVault ensures privacy without compromising convenience. Whether safeguarding personal memories or confidential work files, PixVault gives you total control and peace of mind over your digital privacy."
+    "ratingAvg": 4.4,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 42000 }
+    ]
   },
   {
     "id": 20,
-    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app%20(1).webp",
-    "name": "GameRush",
-    "downloads": "10.1M",
-    "rating": 4.9,
+    "image": "https://raw.githubusercontent.com/chayanb1992/image-api/refs/heads/main/images/demo-app(17).png",
+    "title": "GameRush",
+    "companyName": "Demo Company",
+    "description": "GameRush is an ultimate gaming hub that connects gamers, content creators, and developers in a dynamic platform for discovering, playing, and sharing games. Users can explore trending mobile and PC games, watch live streams, and receive early access to upcoming titles. The app provides personalized recommendations based on playing habits and interests, allowing gamers to find games suited to their style. GameRush features achievements, tournaments, and community challenges, encouraging friendly competition and social interaction. Players can share highlights, follow favorite creators, and receive notifications about updates, events, and new releases. The app also includes news, reviews, and gameplay guides to enhance the gaming experience. With a robust social platform, intuitive interface, and interactive features, GameRush fosters a vibrant gaming community. Whether casual or hardcore, users can connect, compete, and explore, transforming gaming into a social, engaging, and personalized journey that celebrates both play and community.",
+    "size": 50,
     "reviews": "620K",
-    "description": "GameRush is the ultimate hub for gamers to discover, play, and connect. Explore trending mobile and PC games, watch live streams, and get early access to upcoming titles. The app offers curated recommendations based on your interests and playing style. Earn achievements, join tournaments, and share highlights with the gaming community. With instant notifications on updates and events, you’ll never miss a release. GameRush brings together players, creators, and developers in one dynamic platform where fun meets competition. Whether casual or hardcore, every gamer finds their place inside the GameRush universe."
+    "ratingAvg": 4.9,
+    "downloads": "10.1M",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 337000 }
+    ]
   }
 ]

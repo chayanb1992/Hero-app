@@ -41,7 +41,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="flex items-center text-md font-semibold">
+          <a href="/" className="flex items-center text-md font-semibold">
             <img className="w-8" src={logo} alt="Logo Image" />
             <span>HERO.IO</span>
           </a>
@@ -104,9 +104,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn bg-linear-to-r to-[#6B35E5] from-[#975BF0] text-white ">
-            <FaGithub /> Contribute
-          </button>
+          <Link to={"https://github.com/chayanb1992"}>
+            <button className="btn bg-linear-to-r to-[#6B35E5] from-[#975BF0] text-white ">
+              <FaGithub /> Contribute
+            </button>
+          </Link>
         </div>
       </div>
     </div>

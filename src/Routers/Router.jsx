@@ -4,22 +4,24 @@ import Root from "../Root/Root";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import AppDetailsCard from "../Pages/AppDetails";
+import AppNotFound from "../Pages/AppsNotFound";
+import NotFoundPage from "../Pages/Error";
 // import Root from "../../../../boi-poka/src/Root/Root";
 
 const route = createBrowserRouter([
   {
     path: "/",
-    loader: () => fetch("/apps.json"),
+    // loader: () => fetch("/apps.json"),
     Component: Root,
     children: [
       {
         index: true,
-        loader: () => fetch("/apps.json"),
+        // loader: () => fetch("/apps.json"),
         Component: Home,
       },
       {
         path: "/apps",
-        loader: () => fetch("/apps.json"),
+        // loader: () => fetch("/apps.json"),
         Component: Apps,
       },
       {
@@ -31,6 +33,10 @@ const route = createBrowserRouter([
         path: "apps/:id",
         loader: () => fetch("/apps.json"),
         Component: AppDetailsCard,
+      },
+      {
+        path: "/*",
+        Component: NotFoundPage,
       },
     ],
   },

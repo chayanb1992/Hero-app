@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 text-sm pt-12 pb-8 px-6">
       <div className="container mx-auto">
-        {/* Top Links */}
         <div className="grid grid-cols-2 justify-center md:grid-cols-4 lg:grid-cols-6 gap-6 border-b border-gray-700 pb-8">
           <div>
             <h6 className="text-white font-semibold mb-3">Product</h6>
@@ -121,36 +120,42 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-4 mt-6 justify-center">
-              <button className="border cursor-pointer flex items-center gap-2 transition relative z-10">
-                <div className="w-[120px] overflow-hidden">
-                  <img
-                    src={playStore}
-                    alt="Play Store"
-                    className=" rounded-md w-full hover:scale-125 transition duration-300"
-                  />
-                </div>
-              </button>
-              <button className="border cursor-pointer flex items-center gap-2 active:bg-gray-200 transition relative z-10">
-                <div className="w-[120px] overflow-hidden">
-                  <img
-                    src={appStore}
-                    alt="Play Store"
-                    className=" rounded-md w-full hover:scale-125 transition duration-300"
-                  />
-                </div>
-              </button>
+              <a
+                href="https://play.google.com/store/apps"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="border cursor-pointer flex items-center gap-2 transition relative z-10">
+                  <div className="w-[120px] overflow-hidden">
+                    <img
+                      src={playStore}
+                      alt="Play Store"
+                      className=" rounded-md w-full hover:scale-125 transition duration-300"
+                    />
+                  </div>
+                </button>
+              </a>
+              <a
+                href="https://www.apple.com/app-store/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="border cursor-pointer flex items-center gap-2 active:bg-gray-200 transition relative z-10">
+                  <div className="w-[120px] overflow-hidden">
+                    <img
+                      src={appStore}
+                      alt="Play Store"
+                      className=" rounded-md w-full hover:scale-125 transition duration-300"
+                    />
+                  </div>
+                </button>
+              </a>
             </div>
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="mt-6 text-xs text-gray-500 text-center">
-          {/* Logo & Country */}
-
-          {/* Copyright */}
           <p className="">Copyright © 2025 - All right reserved</p>
-
-          {/* Social Icons */}
         </div>
       </div>
     </footer>

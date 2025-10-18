@@ -15,7 +15,7 @@ const setIdToLocalStorage = (id) => {
 const removeItems = (id) => {
   const appsId = getIdFromLocalStorage();
   const newAppId = appsId.filter((appId) => appId !== id);
-  console.log(newAppId);
+  // console.log(newAppId);
   localStorage.setItem("appsId", JSON.stringify(newAppId));
 };
 

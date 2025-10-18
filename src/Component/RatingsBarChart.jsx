@@ -1,41 +1,46 @@
 import React from "react";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  LabelList,
+} from "recharts";
 
-const ratingsData = [
-  { stars: "5 Star", count: 9000 },
-  { stars: "4 Star", count: 6000 },
-  { stars: "3 Star", count: 3000 },
-  { stars: "2 Star", count: 2000 },
-  { stars: "1 Star", count: 1000 },
-];
-
-const maxCount = Math.max(...ratingsData.map((r) => r.count));
-
-const RatingsBarChart = () => {
+const RatingsBarChart = ({ ratings }) => {
+  const ratingsData = [
+    { stars: ratings[4].name, count: ratings[4].count },
+    { stars: ratings[3].name, count: ratings[3].count },
+    { stars: ratings[2].name, count: ratings[2].count },
+    { stars: ratings[1].name, count: ratings[1].count },
+    { stars: ratings[0].name, count: ratings[0].count },
+  ];
   return (
-    <div className="w-full max-w-xl mx-auto p-4 container">
+    <div className="w-full max-w-xl mx-auto p-4">
       <h2 className="text-xl font-semibold mb-4">Ratings</h2>
-      {ratingsData.map((rating, index) => (
-        <div key={index} className="mb-3">
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-sm font-medium text-gray-700">
-              {rating.stars}
-            </span>
-            <span className="text-sm text-gray-500">{rating.count}</span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-4">
-            <div
-              className="bg-orange-500 h-4 rounded-full"
-              style={{ width: `${(rating.count / maxCount) * 100}%` }}
-            ></div>
-          </div>
-        </div>
-      ))}
-      <div className="flex justify-between text-xs text-gray-500 mt-2">
-        <span>0</span>
-        <span>3000</span>
-        <span>6000</span>
-        <span>9000</span>
-      </div>
+      <ResponsiveContainer width="100%" height={250}>
+        <BarChart
+          data={ratingsData}
+          layout="vertical"
+          margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis type="number" tick={{ fontSize: 12 }} />
+          <YAxis
+            type="category"
+            dataKey="stars"
+            tick={{ fontSize: 12 }}
+            width={60}
+          />
+          <Tooltip />
+          <Bar dataKey="count" fill="#F97316" radius={[4, 4, 4, 4]}>
+            <LabelList dataKey="count" position="right" />
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 };
