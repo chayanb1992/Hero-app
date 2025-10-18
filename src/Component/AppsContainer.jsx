@@ -10,7 +10,7 @@ const AppsContainer = () => {
   //   console.log(finsl);
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-gray-100">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 container mx-auto">
         {appsData.map((data) => (
           <AppCard key={data.id} data={data}></AppCard>
         ))}

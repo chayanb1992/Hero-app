@@ -3,7 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import { FaAngleDown } from "react-icons/fa";
 const InstalledAppsHeader = ({ data, handleSort }) => {
   return (
-    <section className="bg-gray-50 py-10 px-4">
+    <section className="bg-gray-50 py-10 px-4 container mx-auto">
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
         <div className="text-center mb-8 relative">

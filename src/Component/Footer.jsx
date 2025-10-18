@@ -5,7 +5,7 @@ import playStore from "../assets/play-store.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 text-sm pt-12 pb-8 px-6">
-      <div className="max-w-7xl mx-auto">
+      <div className="container mx-auto">
         {/* Top Links */}
         <div className="grid grid-cols-2 justify-center md:grid-cols-4 lg:grid-cols-6 gap-6 border-b border-gray-700 pb-8">
           <div>

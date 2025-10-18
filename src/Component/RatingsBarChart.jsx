@@ -12,7 +12,7 @@ const maxCount = Math.max(...ratingsData.map((r) => r.count));
 
 const RatingsBarChart = () => {
   return (
-    <div className="w-full max-w-xl mx-auto p-4">
+    <div className="w-full max-w-xl mx-auto p-4 container">
       <h2 className="text-xl font-semibold mb-4">Ratings</h2>
       {ratingsData.map((rating, index) => (
         <div key={index} className="mb-3">

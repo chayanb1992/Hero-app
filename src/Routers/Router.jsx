@@ -3,6 +3,7 @@ import Home from "../Pages/Home";
 import Root from "../Root/Root";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
+import AppDetailsCard from "../Pages/AppDetails";
 // import Root from "../../../../boi-poka/src/Root/Root";
 
 const route = createBrowserRouter([
@@ -25,6 +26,11 @@ const route = createBrowserRouter([
         path: "/installation",
         loader: () => fetch("/apps.json"),
         Component: Installation,
+      },
+      {
+        path: "apps/:id",
+        loader: () => fetch("/apps.json"),
+        Component: AppDetailsCard,
       },
     ],
   },

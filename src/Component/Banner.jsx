@@ -6,8 +6,7 @@ import playStore from "../assets/play-store.png";
 
 const Banner = () => {
   return (
-    <section className="bg-[#F9FAFB] flex flex-col items-center text-center py-16 px-6">
-      {/* Headings */}
+    <section className="flex flex-col items-center text-center py-16 px-6 container mx-auto">
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800">
         We Build <br /> <span className="text-purple-600">Productive</span> Apps
       </h1>

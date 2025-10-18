@@ -3,7 +3,7 @@ import React from "react";
 const InstalledAppCard = ({ data, handleLocalStorage }) => {
   const { name, downloads, rating, image, id, reviews, description } = data;
   return (
-    <div className="flex items-center justify-between p-4 bg-white shadow rounded-md w-full">
+    <div className="flex items-center justify-between p-4 bg-white shadow rounded-md w-full container mx-auto">
       {/* App Icon Placeholder */}
       <div className="flex items-center">
         <div className="w-12 h-12 bg-gray-200 rounded-md mr-4" />

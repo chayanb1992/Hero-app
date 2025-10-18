@@ -2,7 +2,7 @@ import React from "react";
 
 const Trending = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="container mx-auto">
       <h2 className="text-3xl text-center font-bold mt-10 mb-2">
         Trending Apps
       </h2>

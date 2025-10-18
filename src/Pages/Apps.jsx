@@ -39,7 +39,7 @@ const Apps = () => {
         handleSearch={handleSearch}
         dataLength={appsData.length}
       ></ApplicationsHeader>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-gray-100">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-gray-100 container mx-auto">
         {cearched &&
           cearched.map((data) => <AppCard key={data.id} data={data}></AppCard>)}
       </div>
